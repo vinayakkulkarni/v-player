@@ -1,0 +1,21 @@
+{
+  "name": "@vinayakkulkarni/v-player-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "v-player": "file:..",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0",
+    "vue-tsc": "^3.2.0"
+  }
+}
