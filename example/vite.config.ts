@@ -1,12 +1,12 @@
-import { resolve } from 'path';
-import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import { fileURLToPath, URL } from 'node:url';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      'v-player': resolve(__dirname, '../src/index.ts'),
+      'v-player': fileURLToPath(new URL('../src/index.ts', import.meta.url)),
     },
   },
 });
