@@ -49,19 +49,18 @@
     "format:check": "vp fmt --check",
     "build": "vp pack",
     "test": "echo 'test!'",
-    "prepare": "husky"
+    "prepare": "is-ci || husky"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@tsdown/css": "^0.21.10",
-    "@types/node": "^22.19.19",
-    "@vue/runtime-dom": "^3.5.34",
+    "@types/node": "^25.8.0",
     "husky": "latest",
     "is-ci": "latest",
     "lint-staged": "latest",
     "sass": "^1.99.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "unplugin-vue": "^7.2.0",
     "vite-plus": "^0.1.21",
     "vue": "^3.5.34",
