@@ -1,7 +1,7 @@
 {
   "name": "@vinayakkulkarni/v-player",
   "version": "0.1.0",
-  "exports": "./dist/v-player.js",
+  "exports": "./dist/index.js",
   "publish": {
     "exclude": [
       "!dist"
