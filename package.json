@@ -2,7 +2,7 @@
   "name": "v-player",
   "version": "0.1.0",
   "private": false,
-  "description": "Vue 3 video player with glassmorphism UI and custom controls, inspired by Variant.",
+  "description": "Vue 3 HTML5 video player with glassmorphism UI, custom controls, keyboard shortcuts, and TypeScript-native ESM exports.",
   "keywords": [
     "custom-controls",
     "glassmorphism",

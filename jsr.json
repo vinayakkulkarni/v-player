@@ -6,5 +6,6 @@
     "exclude": [
       "!dist"
     ]
-  }
+  },
+  "description": "Vue 3 HTML5 video player with glassmorphism UI, custom controls, keyboard shortcuts, and TypeScript-native ESM exports."
 }
